@@ -1,0 +1,41 @@
+nav {
+    background-color: var(--dark-blue-email-bg);
+    padding: 30px !important;
+    font-family: 'Raleway', sans-serif; 
+    transition: background-color 0.5s ease-in-out;
+    z-index: 100;
+}
+
+nav img {
+    max-width: 180px;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--white);
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    font-weight: 700;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+
+  }
+
+  @media only screen and (max-width: 448px) {
+    .nav-content { 
+        justify-content: center !important;
+        align-items: center !important;
+        display: flex !important;
+    }
+  }
