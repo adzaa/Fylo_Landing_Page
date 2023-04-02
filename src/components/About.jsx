@@ -19,7 +19,7 @@ function About() {
         <div className="row d-flex justify-content-center align-items-center about-content">
           <div className="col about-card">
             <img src={accesIMG} alt="access" />
-            <h6 className="heading-font">Access your files, anywhere</h6>
+            <p className="heading-font">Access your files, anywhere</p>
             <p>
               The ability to use a smartphone, tablet, or computer to access
               your account means your files follow you everywhere
@@ -27,7 +27,7 @@ function About() {
           </div>
           <div className="col about-card">
             <img src={securityIMG} alt="security" />
-            <h6 className="heading-font">Access your files, anywhere</h6>
+            <p className="heading-font">Access your files, anywhere</p>
             <p>
               2-factor authentication and user-controlled encryption are just a
               couple of the security features we allow to help secure your files
@@ -36,7 +36,7 @@ function About() {
           <div className="w-100"></div>
           <div className="col about-card">
             <img src={collabIMG} alt="collaboration" />
-            <h6 className="heading-font">Access your files, anywhere</h6>
+            <p className="heading-font">Access your files, anywhere</p>
             <p>
               Securely share files and folders with friends, family and
               colleagues for live collaboration. No email attachments required.
@@ -44,7 +44,7 @@ function About() {
           </div>
           <div className="col about-card">
             <img src={anyFileIMG} alt="any file" />
-            <h6 className="heading-font">Access your files, anywhere</h6>
+            <p className="heading-font">Access your files, anywhere</p>
             <p>
               Whether you're sharing holidays photos or work documents, Fylo has
               you covered allowing for all file types to be securely stored and

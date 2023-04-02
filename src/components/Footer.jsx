@@ -67,12 +67,15 @@ function Footer() {
               <div>
                 <a href="#">
                   <i class="fa-brands fa-facebook-f"></i>
+                  <span class="sr-only">Follow us on Facebook</span>
                 </a>
                 <a href="#">
                   <i class="fa-brands fa-twitter"></i>
+                  <span class="sr-only">Follow us on Twitter</span>
                 </a>
                 <a href="#">
                   <i class="fa-brands fa-instagram"></i>
+                  <span class="sr-only">Follow us on Instagram</span>
                 </a>
               </div>
             </div>
